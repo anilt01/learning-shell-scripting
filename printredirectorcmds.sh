@@ -17,7 +17,7 @@ echo Hello > anil.txt
 echo world >> anil.txt
 # insert world along with hello in anil.txt file
 
-echo < anil.txt
+echo "$(<anil.txt)"
 
 
 ## yum install nginx -y &>> /tmp/frontend.sh
