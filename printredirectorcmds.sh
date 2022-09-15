@@ -17,6 +17,8 @@ echo Hello > anil.txt
 echo world >> anil.txt
 # insert world along with hello in anil.txt file
 
+echo cat anil.txt
+
 
 ## yum install nginx -y &>> /tmp/frontend.sh
 ## In the above command yum install installs the package and it moves the all the installing information that appers in linux shell to /tmp folder
