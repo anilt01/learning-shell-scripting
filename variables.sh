@@ -4,4 +4,4 @@ c=30
 
 
 echo value of a is $a
-echo sum of abc is `sum=$((a+b+c))`
+echo sum of abc is $((a+b+c))
