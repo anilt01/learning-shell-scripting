@@ -21,6 +21,9 @@ echo world >> anil.txt
 
 echo "$(<anil.txt)"
 echo `cat anil.txt`
+echo Thank you >> anil.txt
+echo `cat anil.txt`
+
 ## Displays the data inside anil.txt file
 
 
