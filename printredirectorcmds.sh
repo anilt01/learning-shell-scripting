@@ -28,7 +28,7 @@ echo "$(<anil.txt)"
 ## Displays the data inside anil.txt file
 echo status =$?
 
-$ represents status
+## $ represents status where 0 = success other than 0 it represents an error
 
 
 ## yum install nginx -y &>> /tmp/frontend.sh
