@@ -26,7 +26,7 @@ echo `cat anil.txt`
 echo "$(<anil.txt)"
 
 ## Displays the data inside anil.txt file
-echo status =$
+echo status =$?
 
 $ represents status
 
