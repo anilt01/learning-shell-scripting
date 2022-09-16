@@ -9,6 +9,8 @@ echo "Hello world"
 echo Hello > anil.txt
 # insert Hello in anil.txt file
 
+echo `cat anil.txt`
+
 echo world > anil.txt
 # Replaces world with Hello in anil.txt file
 
@@ -18,8 +20,8 @@ echo world >> anil.txt
 # insert world along with hello in anil.txt file
 
 echo "$(<anil.txt)"
-
 echo `cat anil.txt`
+## Displays the data inside anil.txt file
 
 
 ## yum install nginx -y &>> /tmp/frontend.sh
