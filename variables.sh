@@ -21,5 +21,5 @@ echo sum of the numbers is: $sum
 n=(1 2 3 4)
 # "n" is the array of numbers
 
-echo {n[2]}
+echo ${n[2]}
 # prints the 3rd number in the array as the array index starts from 0
